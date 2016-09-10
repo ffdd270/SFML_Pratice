@@ -1,0 +1,22 @@
+﻿빌드 시작: 2016-09-10 오전 11:22:03
+     1>2 노드의 "C:\Users\USER\Desktop\ConsoleApplication3\ConsoleApplication3.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\USER\Documents\SFML-2.4.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainCharter.cpp main.cpp
+         main.cpp
+     1>c:\users\user\documents\sfml-2.4.0\include\sfml\window\windowhandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         MainCharter.cpp
+     1>c:\users\user\documents\sfml-2.4.0\include\sfml\window\windowhandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\users\user\desktop\consoleapplication3\maincharter.cpp(9): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\user\desktop\consoleapplication3\maincharter.cpp(30): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\user\desktop\consoleapplication3\maincharter.cpp(36): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\ConsoleApplication3\Debug\ConsoleApplication3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\USER\Documents\SFML-2.4.0\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Desktop\ConsoleApplication3\Debug\ConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Desktop\ConsoleApplication3\Debug\ConsoleApplication3.lib" /MACHINE:X86 Debug\FindResouce.obj
+         Debug\main.obj
+         Debug\MainCharter.obj
+         ConsoleApplication3.vcxproj -> C:\Users\USER\Desktop\ConsoleApplication3\Debug\ConsoleApplication3.exe
+     1>"C:\Users\USER\Desktop\ConsoleApplication3\ConsoleApplication3.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.34
